@@ -1,0 +1,8 @@
+# IDE-specific files and folders
+.idea/
+*.iml
+
+# Build folders and files
+target/
+out/
+*.class
