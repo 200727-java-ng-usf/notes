@@ -373,5 +373,22 @@
          <p>CSS framework, responsive, mobile first</p>
          <a href= "https://getbootstrap.com/" target = "_blank">Read ALL about it here</a>
      </div>
+     <div class="container">
+        <h2>Form Demo</h2>
+        <form action = "https://www.google.com/search" method = "get" target = "_blank">
+            <!--
+                action = where the info gets sent to
+                method = how you sent info 
+                    Get = appends form info as query parameter
+                    Post = appends form info in the request body
+                form = https://www.w3schools.com/html/html_forms.asp
+            -->
+            <div class = "form-group">
+                <label>Ask Google</label>
+                <input type = "text" class = "form-control" placeholder = "ask google a question" name = "q">
+                <button type = "submit" class = "btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
