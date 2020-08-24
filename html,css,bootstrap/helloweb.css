@@ -1,0 +1,28 @@
+.csstalk{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#id{
+    color: #9ea197;
+}
+.pseudo:hover {
+    font-family: cursive;
+    background-color: #a4e734;
+}
+div, li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important; 
+}
+
+#pel::first-letter{
+    font-size: x-large;
+}
+#id, div{
+    margin-top: 0px;
+}
+/* 
+
+*{
+    background-color: azure;
+} 
+ 
+This is how you comment in css
+*/
