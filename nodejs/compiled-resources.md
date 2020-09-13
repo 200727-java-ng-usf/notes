@@ -25,4 +25,4 @@
 - [Angular Template-Driven Forms](https://angular.io/guide/forms)
 - [Angular Data Binding](https://angular.io/guide/displaying-data)
 - [What is a SPA?](https://dzone.com/articles/what-is-a-single-page-application)
-
+- [TekTutorials Hub](https://www.tektutorialshub.com/angular-tutorial/)
