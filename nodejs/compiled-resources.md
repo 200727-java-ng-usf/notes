@@ -27,7 +27,10 @@
 - [What is a SPA?](https://dzone.com/articles/what-is-a-single-page-application)
 - [TekTutorials Hub](https://www.tektutorialshub.com/angular-tutorial/)
 
+### Angular CLI
+- [Angular Documentation: ](https://angular.io/cli)
+
 ### Angular Component Lifecycle
-- [Angular Documentation on Component Lifecycle](https://angular.io/guide/lifecycle-hooks)
+- [Angular Documentation: Component Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
 - [Positronx: Angular 8/9 Component Lifecycle Hooks](https://www.positronx.io/angular-8-component-lifecycle-hooks/)
 - [YouTube: Angular LifeCycle Hooks - Explained with Examples](https://www.youtube.com/watch?v=0KWQLFI8mFE)
