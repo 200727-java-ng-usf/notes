@@ -196,12 +196,12 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
         * Webpack v4
         * support for RxJS 6 library
         * new nG CLI commands (`ng add`, `ng update`, etc.)
-        * tree-shakable services
+        * tree-shakeable services
 
 * Angular 7
     * introduced in October 2018
     * new features (not all inclusive):
-        * improvments to Angular Material & CDK [What's that?](https://material.angular.io/cdk/categories)
+        * improvements to Angular Material & CDK [What's that?](https://material.angular.io/cdk/categories)
         * support for Typescript 3.1
         * support for RxJS 6.3, 
         * support for Node 10 (still supporting Node 8).
@@ -216,7 +216,7 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
         * Preview of Ivy (new rendering engine) [What's that?](https://blog.nrwl.io/understanding-angular-ivy-incremental-dom-and-virtual-dom-243be844bf36) and Bazel (new build system) [What's that?](https://github.com/bazelbuild/bazel)
 
 * Angular 9
-    * Introduced in 
+    * Introduced in February 2020
     * new features (not all inclusive)
         * Ivy Engine made the default compiler (results in smaller bundle sizes than previous versions)
         * ModuleWithProviders Support
@@ -225,7 +225,7 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
         * [Good resource](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
 
 * Angular 10
-    * Introduced in 
+    * Introduced in June 2020
     * new features (not all inclusive)
         * Optional Strict(er) Mode
         * Support for TypeScript 3.9 (support for 4.0 added in 10.1)
