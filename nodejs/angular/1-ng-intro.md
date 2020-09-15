@@ -36,14 +36,14 @@ HTTP protocol).
 
 # Setting Up the Development Environment (Our first Angular App)
 
-1) Install the latest version of Node.js. Notes on Node.js [More information](https://github.com/wsingleton/190422-Java-USF/blob/master/Week_5-Angular_DevOps/angular/node-js.md)
+1) Install the latest version of NodeJS
 
 * Node.js is a runtime environment for executing JS code outside of the browser
     * NG 7 apps require Node.js v8 (and support v10)
     * NG 8 apps require Node.js v10
     
 
-2) With Node.js installed, use Node Package Manager (NPM) to install third-party libraries. In our
+2) With NodeJS installed, use Node Package Manager (NPM) to install third-party libraries. In our
 case we use it to install the Angular Command Line Interface (CLI), using the following command: `npm install -g @angular/cli@7.3.9`
 
 * Although Angular 8 is out, we will use the latest stable release of Angular 7.
@@ -214,6 +214,23 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
         * Dynamic imports for lazy routes [What's that?](https://alligator.io/angular/lazy-loading/)
         * CLI workflow improvements
         * Preview of Ivy (new rendering engine) [What's that?](https://blog.nrwl.io/understanding-angular-ivy-incremental-dom-and-virtual-dom-243be844bf36) and Bazel (new build system) [What's that?](https://github.com/bazelbuild/bazel)
+
+* Angular 9
+    * Introduced in 
+    * new features (not all inclusive)
+        * Ivy Engine made the default compiler (results in smaller bundle sizes than previous versions)
+        * ModuleWithProviders Support
+        * Changes with Angular Forms (<ngForm> replaced with <ng-form>
+        * New scopes added to dependency injection system
+        * [Good resource](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
+
+* Angular 10
+    * Introduced in 
+    * new features (not all inclusive)
+        * Optional Strict(er) Mode
+        * Support for TypeScript 3.9 (support for 4.0 added in 10.1)
+        * TSlib, the runtime library for TypeScript containing helper functions, updated to Tslib 2.0
+
 
 ## Why no Angular 3?
 
