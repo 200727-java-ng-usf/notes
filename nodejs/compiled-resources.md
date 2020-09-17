@@ -26,6 +26,19 @@
 - [Angular Data Binding](https://angular.io/guide/displaying-data)
 - [What is a SPA?](https://dzone.com/articles/what-is-a-single-page-application)
 - [TekTutorials Hub](https://www.tektutorialshub.com/angular-tutorial/)
+- [Attribute Directives](https://angular.io/guide/attribute-directives)
+- [Pipes](https://angular.io/guide/pipes)
+- [Data and Event Binding](https://angular.io/guide/binding-syntax)
+- [Intro to Services and Dependency Injection](https://angular.io/guide/architecture-services)
+- [More on DI in Angular](https://angular.io/guide/dependency-injection)
+- [Routing](https://angular.io/guide/router)
+- [Http Client](https://angular.io/guide/http)
+- [Introduction to RxJS](https://rxjs.dev/guide/overview)
+- [Observable](https://rxjs.dev/guide/observable)
+- [Using observables in Angular](https://angular.io/guide/observables-in-angular)
+- [Subjects](https://rxjs.dev/guide/subject)
+
+
 
 ### Angular CLI
 - [Angular Documentation: ](https://angular.io/cli)
