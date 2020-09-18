@@ -76,7 +76,7 @@ All these phases are cascaded to each other in which progress is seen as flowing
  
 
  
-## Waterfall Model - Application**
+## Waterfall Model - Application
 
 
 Every software developed is different and requires a suitable SDLC approach to be followed based on the internal and external factors. Some situations where the use of Waterfall model is most appropriate are −
