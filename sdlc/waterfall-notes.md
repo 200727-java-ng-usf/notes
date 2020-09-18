@@ -65,15 +65,12 @@ All the units developed in the implementation phase are integrated into a system
 Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.
 
 
-     
-
 ### Maintenance
 
 
 There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
 
  
-
 All these phases are cascaded to each other in which progress is seen as flowing steadily downwards (like a waterfall) through the phases. The next phase is started only after the defined set of goals are achieved for previous phase and it is signed off, so the name "Waterfall Model". In this model, phases do not overlap.
 
  
@@ -81,51 +78,23 @@ All these phases are cascaded to each other in which progress is seen as flowing
  
 ## Waterfall Model - Application**
 
- 
 
 Every software developed is different and requires a suitable SDLC approach to be followed based on the internal and external factors. Some situations where the use of Waterfall model is most appropriate are −
 
- 
-
-
-
 *   Requirements are very well documented, clear and fixed.
-
- 
-
-
 
 *   Product definition is stable.
 
- 
-
-
-
 *   Technology is understood and is not dynamic.
-
- 
-
-
 
 *   There are no ambiguous requirements.
 
- 
-
-
-
 *   Ample resources with required expertise are available to support the product.
 
- 
-
-
-
 *   The project is short.
-
  
 
- 
-
-**Waterfall Model - Advantages**
+### Waterfall Model - Advantages
 
  
 
@@ -139,120 +108,46 @@ Development moves from concept, through design, implementation, testing, install
 
 Some of the major advantages of the Waterfall Model are as follows −
 
- 
-
-
-
 *   Simple and easy to understand and use
-
- 
-
-
 
 *   Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
 
- 
-
-
-
 *   Phases are processed and completed one at a time.
-
- 
-
-
 
 *   Works well for smaller projects where requirements are very well understood.
 
- 
-
-
-
 *   Clearly defined stages.
-
- 
-
-
 
 *   Well understood milestones.
 
- 
-
-
-
 *   Easy to arrange tasks.
-
- 
-
-
 
 *   Process and results are well documented.
 
- 
-
-(more below)
 
  
+### Waterfall Model - Disadvantages
 
-**Waterfall Model - Disadvantages**
-
- 
 
 The disadvantage of waterfall development is that it does not allow much reflection or revision. Once an application is in the testing stage, it is very difficult to go back and change something that was not well-documented or thought upon in the concept stage.
 
- 
 
 The major disadvantages of the Waterfall Model are as follows −
 
- 
-
-
-
 *   No working software is produced until late during the life cycle.
-
- 
-
-
 
 *   High amounts of risk and uncertainty.
 
- 
-
-
-
 *   Not a good model for complex and object-oriented projects.
-
- 
-
-
 
 *   Poor model for long and ongoing projects.
 
- 
-
-
-
 *   Not suitable for the projects where requirements are at a moderate to high risk of changing. So, risk and uncertainty is high with this process model.
-
- 
-
-
 
 *   It is difficult to measure progress within stages.
 
- 
-
-
-
 *   Cannot accommodate changing requirements.
 
- 
-
-
-
 *   Adjusting scope during the life cycle can end a project.
-
  
-
-
-
 *   Integration is done as a "big-bang" at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.
