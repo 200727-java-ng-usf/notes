@@ -1,4 +1,4 @@
-**Waterfall Overview**
+# Waterfall Overview
 
  
 
@@ -16,7 +16,7 @@ The waterfall Model illustrates the software development process in a linear seq
 
  
 
-**Waterfall Model - Design**
+## Waterfall Model - Design
 
  
 
@@ -24,53 +24,53 @@ Waterfall approach was first SDLC Model to be used widely in Software Engineerin
 
  
 
-**Phases** 
+## Phases
 
 The sequential phases in Waterfall model are −
 
  
 
-_<span style="text-decoration:underline;">Requirement Gathering and analysis</span>_
+### Requirement Gathering and analysis
 
 
-    All possible requirements of the system to be developed are captured in this phase and documented in a requirement specification document.
+All possible requirements of the system to be developed are captured in this phase and documented in a requirement specification document.
 
  
 
-_<span style="text-decoration:underline;">System Design</span>_
+### System Design
 
 
-    The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.
+The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.
 
 
      
 
-_<span style="text-decoration:underline;">Implementation</span>_
+### Implementation
 
 
-    With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
-
- 
-
-_<span style="text-decoration:underline;">Integration and Testing</span>_
-
-
-    All the units developed in the implementation phase are integrated into a system after testing of each unit. Post integration the entire system is tested for any faults and failures.
+With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
 
  
 
-_<span style="text-decoration:underline;">Deployment of system</span>_
+### Integration and Testing
 
 
-    Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.
+All the units developed in the implementation phase are integrated into a system after testing of each unit. Post integration the entire system is tested for any faults and failures.
+
+ 
+
+### Deployment of system
+
+
+Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.
 
 
      
 
-_<span style="text-decoration:underline;">Maintenance</span>_
+### Maintenance
 
 
-    There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
+There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
 
  
 
@@ -79,8 +79,7 @@ All these phases are cascaded to each other in which progress is seen as flowing
  
 
  
-
-**Waterfall Model - Application**
+## Waterfall Model - Application**
 
  
 
