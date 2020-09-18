@@ -168,7 +168,7 @@ The Scrum Master serves the organization in several ways, including:
 There are well-defined events in the Scrum framework that create a routine for the team to follow while also minimizing the need for meetings. All events have a maximum duration that must be adhered to, it cannot be shortened or lengthened:
 
 *   The Sprint
-*   Spring Planning
+*   Sprint Planning
 *   Daily Scrum
 *   Sprint Review
 *   Sprint Retrospective
