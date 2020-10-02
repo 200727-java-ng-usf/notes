@@ -77,7 +77,7 @@ Docker can build images automatically by reading the instructions from a Dockerf
 - `COPY`
   - copies new files from some source directories and adds them to the filesystem of the container
 
-- `ENTRYPOINT
+- `ENTRYPOINT`
   - allows you to configure a container that will run as an executable
 
 ---
