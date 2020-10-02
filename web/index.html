@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        contains meta data
+        Like what character set to use
+        The title of your tab/window/bookmark
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+     <!--Adding boostrap to my HTML-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        div{
+            font-family:  Helvetica, sans-serif,Arial;
+        }
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+    <link rel="stylesheet" href="helloweb.css">
+</head>
+<body>
+    <!--
+        Contains the actual content of your webpage
+        Like the stuff to fill the white space
+        what your end user interacts with
+    -->
+    <h1 class="jumbotron">Lecture on HTML, CSS, BOOTSTRAP</h1>
+    <div class = "container">
+        <h1>HTML</h1>
+            <h2>What is HTML?</h2>
+            <ul>
+                <li>Hypertext Markup Language</li>
+                <li>It defines the structure of your webpage</li>
+                <li>what goes where</li>
+                <li>use tags to describe the elements of your webpage</li>
+            </ul>
+            <h2>How is your webpage read by your browser?</h2>
+            <ol>
+                <li>Request</li>
+                <li>Response</li>
+                <li>Build</li>
+                <li>Render</li>
+            </ol>
+            <p>
+            Client - web browser <br/>
+            server - holds your HTML pages for you<br/>
+            Client requests, server responds, client downloads needed resources to display webpage, client builds webpage <br/>
+            <a href="https://varvy.com/pagespeed/display.html" target="_blank">Click here for more info</a>
+            </p>
+            <h2>What version of HTML are we working with?</h2>
+            <p>HTML5, The living standard, features get added to it</p>
+            <h2>Who's in charge of this living standard?</h2>
+            <p>WHATWG: Web Hypertext Application Technology Working Group</p>
+            <h2>Which broswers support HTML5?</h2>
+            <a href="https://caniuse.com/#search=html5" target="_blank">Click here to find out</a>
+        
+    </div>
+    <div class = "container">
+        This is a div tag
+    </div>
+    <div class = "container">
+        This is a generic block element, it takes some vertical space
+    </div>
+    <div class = "container">
+        <span>generic inline element, does not take vertical</span>
+        <span>Exists side by side with other elements if space permits</span>
+    </div>
+    <div class = "container">
+        <p>This is a paragraph tag, its also block</p>
+        <article>This is an article, like a paragraph, takes less vertical space than paragraph tags</article>
+        <a href="https://agilemanifesto.org/">This is our page to beat!</a>
+    </div>
+    <div class = "container">
+        <header>Difference between head, header, heading?</header>
+        <p>Head tag encapsulates meta information about your html resource</p>
+        <p>The header is a semantic element that describes a header</p>
+        <p>The heading is a way of formatting how things are presented, like a paragraph heading, has levels</p>
+        <h1>Level 1</h1>
+        <h2>Level 2</h2>
+        <h3>Level 3</h3>
+        <h4>Level 4</h4>
+        <h5>Level 5</h5>
+        <h6>Level 6</h6>
+        <p>Why even use header element?</p>
+        <p>
+            We don't use tags to make words appear <b> bolder </b> or <i>italicized </i> because HTML shouldn't describe how things look; just what they are.
+        </p>
+    </div>
+    <div class = "container">
+        <p>Presenting a collection of stuff to end user</p>
+        <p>
+            Lists
+            <ol>
+                <li>This is an ordered list</li>
+                <li>Notice the numbers</li>
+            </ol>
+            <ul>
+                <li>This is unordered</li>
+                <li>Notice the lack of numbers</li>
+            </ul>
+        </p>
+    </div>
+    <div class = "container">
+        <p>Tables</p>
+        <table class = "table">
+            <thead>
+                <th>Name</th>
+                <th>Favorite Color</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marielle</td>
+                    <td>Green</td>
+                </tr>
+                <tr>
+                    <td>Jacob</td>
+                    <td>Blue</td>
+                    <td>Yellow</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- 
+        <div>
+        <h2>Images</h2>
+        <img src= "https://icatcare.org/app/uploads/2018/06/Layer-1704-1920x840.jpg"/>
+        Notice how the image tag is self closing
+        Some Tags in HTML are like that
+        </div> 
+    -->
+    <div id = "attributeID" class = "container">
+        <h2>
+            Attributes
+        </h2>
+        <p class = "attribute">
+            Some tags like the img tag use attributes to define the value of what they're presenting ( img src="where the image is located")
+             <br/>
+            href attribute of the anchor tag, tells you where the anchor tag leads.<br/>
+            you can also use them to identify your elements 
+            <br/>
+            <ul>
+                <caption>Ways to identify an element using attributes</caption>
+                <li>
+                    ID- unique way to identify an element
+                </li>
+                <li>
+                    Class- way to identify multiple elements
+                </li>
+            </ul>
+            You need to identify them to be able to know where to apply certain rules in CSS or behavior in JS <br/>
+            Then again you don't need these stuff to apply style in elements <br/>
+            you can always use the style attribute<br/>
+            <p style = "color:aqua"> using the style attribute i have changed the font color of this paragraph</p>
+        </p>
+    </div>
+    <div class="container">
+        <h1>CSS</h1>
+        <div class="csstalk container">
+            <p>
+                We use Cascading Style Sheets (CSS) to apply styles to web pages
+            </p>
+            <ol>
+                <header>Ways to include CSS in your HTML</header>
+                <li style = "color:gray">
+                    Inline 
+                    <ul>
+                        <li>
+                            using the style attribute
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Internal
+                    <ul>
+                        <li>
+                            uses style tag found in head
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    External
+                    <ul>
+                        <li>
+                            Uses a totally separate .css file
+                        </li>
+                        <li>
+                            referenced in head
+                        </li>
+                        <li>
+                            Best practice for separation of concerns
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="slectors container">
+            <h2>
+                Selectors
+            </h2>
+            <h3>How styles are applied</h3>
+            <p>We apply styles using rules in CSS. Rules are a key value pair of what element property to style, and the style that should be applied. 
+                For example, the rule, color:yellow, changes the font color of the selected element to yellow. Selectors are used to group these rules together.
+                Using selectors, we can define a set of style rules for a certain group of elements. 
+            </p>
+            <p>
+                From the HTML side, we identify elements using ID, and classes
+                So how do we identify elements on the CSS side?
+                We use selectors!
+            </p>
+            <ul>
+                <header>
+                    Types of Selectors
+                </header>
+                <h3>Simple selectors:</h3>>
+                <li>
+                    Tag/Element
+                    <ul>
+                        <li>
+                            uses tag name to identify the element
+                        </li>
+                        <li>
+                            this will affect all elements with that tag name
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Class
+                    <ul>
+                        <li>
+                            uses the class name
+                        </li>
+                        <li>
+                            denoted by .classname
+                        </li>
+                    </ul>
+                </li>
+                <li id="id">
+                    ID
+                    <ul>
+                        <li>Uses unique id</li>
+                        <li>denoted by #id</li>
+                    </ul>
+                </li>
+                <li class="pseudo">
+                    <h3>Pseudo-class</h3>
+                    <ul>
+                        <li>
+                            specific keyword at the end of the selector used 
+                            to style elements when it is at a certain state
+                        </li>
+                        <li>
+                            :active, :hover, etc..
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Pseudo-element</h3>
+                    <ul id="pel">
+                        <li>
+                            used to style specific parts of an element
+                        </li>
+                        <li> insert content before or after an element </li>
+                        <li> style first letter or line of an element</li>
+                        <li> ::before, ::after, ::firstline, ::firstletter</li>
+                        
+                    </ul>
+                </li>
+                
+                <h3>Combinator Selectors: </h3>
+                <li>
+                    Child Descendant (research)
+                </li>
+                <li>
+                    Sibling (research)
+                </li>
+                <li>
+                    <h3>Attribute selectors: </h3> (research)
+                    hint: it's like pattern matching but for CSS
+                </li>
+                <li>
+                    Multiple selectors
+                 <ul>
+                     <li>use comma to separate the selectors</li>
+                     <li>example: li, div, p { style rule here; }</li>
+                 </ul>
+                </li>
+                <li>
+                    Wild Card (*)
+                    <ul>
+                        <li>Style all</li>
+                        <li>
+                            * {
+                                style rule here;
+                            }
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Order selectors are chosen for styling are dependent on:</h2>
+            <ol>
+                <li>
+                    Importance
+                    <ul>
+                        <li>adding !important to a rule ensures that the style always gets applied</li>
+                        <li>only another !important can be more important</li>
+                    </ul>
+                </li>
+    
+                <li>
+                    Specificity
+                    <ul>
+                        <li style = "font-family: cursive;">Measure of how specific selector is</li>
+                        <li>Order(Most specific to least specific)</li>
+                        <ol>
+                            <li>Inline</li>
+                            <li>ID</li>
+                            <li>Class/attribute/pseudo-class</li>
+                            <li>element/pseudo-element</li>
+                        </ol>
+                    </ul>
+                </li>
+                <li>
+                    Source order
+                    <ul>
+                        <li>
+                            Order in which the selectors/stylesheets were declared
+                        </li>
+                        <li>
+                            The later wins!
+                        </li>
+                        <li>
+                            Matters if CSS rules conflict
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="container">
+            <h2>CSS Box Model</h2>
+            <a href = "https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">Click Here to learn more about it</a>
+        </div>
+       </div>
+       <div class="container">
+        <h2>Responsive Web Design</h2>
+        <p>Some questions that keep you up at night as a web developer:
+           <ul>
+               <li> 
+                 If I resize my screen, will my webapp render properly?
+               </li>
+             <li>
+                 Will end users still be able to make sense of the resulting reorganization due to minimizing/maximizing the screen?
+             </li>
+             <li>
+                 Will there be horizontal scrolling?
+             </li>
+             <li>
+                 How will my page adapt if accessed from different devices?
+             </li>
+             <li>
+                 Did I do anything to address these concerns???
+             </li>
+           </ul>
+            These questions come up when you're trying to design a responsive web page. Responsive web design
+            is all about designing pages so they render well on any window. 
+            And, if you're really good at CSS you can address these concerns by yourself. 
+            But why should you?
+        </p>
+    </div>
+     <div class = "container">
+         <h2>Boostrap JS</h2>
+         <p>CSS framework, responsive, mobile first</p>
+         <a href= "https://getbootstrap.com/" target = "_blank">Read ALL about it here</a>
+     </div>
+     <div class="container">
+        <h2>Form Demo</h2>
+        <form action = "https://www.google.com/search" method = "get" target = "_blank">
+            <!--
+                action = where the info gets sent to
+                method = how you sent info 
+                    Get = appends form info as query parameter
+                    Post = appends form info in the request body
+                form = https://www.w3schools.com/html/html_forms.asp
+            -->
+            <div class = "form-group">
+                <label>Ask Google</label>
+                <input type = "text" class = "form-control" placeholder = "ask google a question" name = "q">
+                <button type = "submit" class = "btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
