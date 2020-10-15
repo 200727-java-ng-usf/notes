@@ -6,7 +6,7 @@ Directives _extend_ the behavior of HTML, enabling you to create custom HTML ele
 
 ### Understanding Directives
 
-Directives are a combination of nG template marup and supporting TS code. NG directive markups can be HTML attributes, element names, or CSS classes. The TS directive code defines the template data and behavior of the HTML elements.
+Directives are a combination of nG template markup and supporting TS code. NG directive markups can be HTML attributes, element names, or CSS classes. The TS directive code defines the template data and behavior of the HTML elements.
 
 The nG compiler traverses the template DOM and compiles all of the directives. Then it links the directives by combining a directive with a scope to produce a new live view. The live view contains the DOM elements and functionality defined in the directive.
 
